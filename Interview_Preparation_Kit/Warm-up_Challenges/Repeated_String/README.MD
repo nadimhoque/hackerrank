@@ -7,7 +7,7 @@ My understanding of the problem is that the string s is repeated infinte times. 
 I think that the best method for this is using arrays. Assuming the above description is accurate then 
 
 1. Create a temp array. This array we will use the input array and repeat it n number of times. 
-2. Make another loop that goes through the first n number of characters and count the number of a's
+2. Make another loop that goes through the first n number of characters and count the number of 'a'
 
 ## __Alternatives__
 
