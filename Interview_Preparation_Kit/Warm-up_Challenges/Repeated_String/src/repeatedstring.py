@@ -8,6 +8,13 @@ import sys
 
 # Complete the repeatedString function below.
 def repeatedString(s, n):
+    numa = 0
+    tmparray = []
+
+    for
+
+
+    return numa
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
