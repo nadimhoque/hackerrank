@@ -6,6 +6,9 @@ import random
 import re
 import sys
 
+def minimumBribes(q):
+
+
 if __name__ == '__main__':
     t = int(input())
 
@@ -13,5 +16,5 @@ if __name__ == '__main__':
         n = int(input())
 
         q = list(map(int, input().rstrip().split()))
-
-    print(q)
+    
+        minimumBribes(q)
