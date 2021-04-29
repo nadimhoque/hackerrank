@@ -12,9 +12,10 @@ def twoStrings(s1, s2):
     s1count = Counter(s1)
     s2count = Counter(s2)
 
-    for i in s1count:
+
+    for i in s1count.keys():
         if i in s2count:
-            return 'Yes'
+            print(i)
         else:
             return 'No'
 
