@@ -6,8 +6,8 @@ def count_substring(string, sub_string):
     for itrstr in range(0,len(mainstr)):
         if substr[0] == mainstr[itrstr]:
             itrsub = 0
-            for itrsub in range(1, len(substr)):
-                if substr[itrstr] != mainstr[itrsub+substr]:
+            for itrsub in range(0, len(substr)):
+                if substr[itrstr] != mainstr[itrsub+itrstr] and itrstr + itrsub:
                     break
                 else:
                     nummatch = nummatch + 1
