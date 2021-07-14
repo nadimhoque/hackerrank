@@ -1,0 +1,4 @@
+Some asumptions I have made, and these also passed all of the test cases on hacker rank:
+
+1. The list is not going to contain all same numbers. In other words the list will have different numbers
+2. the list will never be empty
